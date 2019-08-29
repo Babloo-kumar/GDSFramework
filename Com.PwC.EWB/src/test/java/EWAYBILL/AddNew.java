@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 public class AddNew extends Login
 {
+	//hhfhf
 	@Test
 	public static void Addnewform() throws InterruptedException
 	{
