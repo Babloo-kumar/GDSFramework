@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Suite" annotations="JDK" parallel="tests">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="EWAYBILL.Login"/>
+      <class name="EWAYBILL.AddNew"/>
+      <class name="EWAYBILL.LunchBrowser"/>
+      <class name="EWAYBILL.CreatCompany"/>
+       <class name="EWAYBILL.CreatBu"/>
+       <class name="EWAYBILL.Creat_SBU"/>
+       <class name="EWAYBILL.Creat_Location"/>
+       <class name="EWAYBILL.Create_gstin"/>
+       <class name="EWAYBILL.Create_user"/>
+       <class name="EWAYBILL.Assign_Role"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

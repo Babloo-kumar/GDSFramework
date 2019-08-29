@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="EWAYBILL.CompanySetupCreate">
+        <methods>
+          <include name="Create_gstin"/>
+          <include name="Create_SBU"/>
+          <include name="CreatCompany"/>
+          <include name="Creat_Location"/>
+          <include name="Create_user"/>
+          <include name="Assign_Role"/>
+          <include name="CreatBu"/>
+        </methods>
+      </class> <!-- EWAYBILL.CompanySetupCreate -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

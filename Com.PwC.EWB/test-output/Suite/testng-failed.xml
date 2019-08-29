@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="10" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="EWAYBILL.RetryListenerClass"/>
+  </listeners>
+  <test thread-count="10" parallel="tests" name="User2(failed)">
+    <classes>
+      <class name="EWAYBILL.User2">
+        <methods>
+          <include name="EwayBillGeneration"/>
+          <include name="CloseBrowser"/>
+          <include name="LoginAsAdmin"/>
+        </methods>
+      </class> <!-- EWAYBILL.User2 -->
+    </classes>
+  </test> <!-- User2(failed) -->
+  <test thread-count="10" parallel="tests" name="User6(failed)">
+    <classes>
+      <class name="EWAYBILL.User6">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="LoginAsAdmin"/>
+          <include name="EwayBillGeneration"/>
+        </methods>
+      </class> <!-- EWAYBILL.User6 -->
+    </classes>
+  </test> <!-- User6(failed) -->
+  <test thread-count="10" parallel="tests" name="User3(failed)">
+    <classes>
+      <class name="EWAYBILL.User3">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="EwayBillGeneration"/>
+          <include name="LoginAsAdmin"/>
+        </methods>
+      </class> <!-- EWAYBILL.User3 -->
+    </classes>
+  </test> <!-- User3(failed) -->
+  <test thread-count="10" parallel="tests" name="User5(failed)">
+    <classes>
+      <class name="EWAYBILL.User5">
+        <methods>
+          <include name="LoginAsAdmin"/>
+          <include name="EwayBillGeneration"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- EWAYBILL.User5 -->
+    </classes>
+  </test> <!-- User5(failed) -->
+  <test thread-count="10" parallel="tests" name="User7(failed)">
+    <classes>
+      <class name="EWAYBILL.User7">
+        <methods>
+          <include name="EwayBillGeneration"/>
+          <include name="LoginAsAdmin"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- EWAYBILL.User7 -->
+    </classes>
+  </test> <!-- User7(failed) -->
+  <test thread-count="10" parallel="tests" name="User9(failed)">
+    <classes>
+      <class name="EWAYBILL.User9">
+        <methods>
+          <include name="LoginAsAdmin"/>
+          <include name="EwayBillGeneration"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- EWAYBILL.User9 -->
+    </classes>
+  </test> <!-- User9(failed) -->
+  <test thread-count="10" parallel="tests" name="User10(failed)">
+    <classes>
+      <class name="EWAYBILL.User10">
+        <methods>
+          <include name="EwayBillGeneration"/>
+          <include name="LoginAsAdmin"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- EWAYBILL.User10 -->
+    </classes>
+  </test> <!-- User10(failed) -->
+  <test thread-count="10" parallel="tests" name="User8(failed)">
+    <classes>
+      <class name="EWAYBILL.User8">
+        <methods>
+          <include name="EwayBillGeneration"/>
+          <include name="CloseBrowser"/>
+          <include name="LoginAsAdmin"/>
+        </methods>
+      </class> <!-- EWAYBILL.User8 -->
+    </classes>
+  </test> <!-- User8(failed) -->
+  <test thread-count="10" parallel="tests" name="User1(failed)">
+    <classes>
+      <class name="EWAYBILL.User1">
+        <methods>
+          <include name="LoginAsAdmin"/>
+          <include name="EwayBillGeneration"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- EWAYBILL.User1 -->
+    </classes>
+  </test> <!-- User1(failed) -->
+  <test thread-count="10" parallel="tests" name="User4(failed)">
+    <classes>
+      <class name="EWAYBILL.User4">
+        <methods>
+          <include name="EwayBillGeneration"/>
+          <include name="CloseBrowser"/>
+          <include name="LoginAsAdmin"/>
+        </methods>
+      </class> <!-- EWAYBILL.User4 -->
+    </classes>
+  </test> <!-- User4(failed) -->
+</suite> <!-- Failed suite [Suite] -->
